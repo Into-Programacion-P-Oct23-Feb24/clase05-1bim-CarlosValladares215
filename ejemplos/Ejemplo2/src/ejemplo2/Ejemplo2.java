@@ -27,15 +27,21 @@ public class Ejemplo2 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US); // 10,2 / 10.2
         double promedio;
+        String miNombre;
+        String miApellido;
+        System.out.println("Ingrese el nombre por favor");
+        miNombre = entrada.nextLine();
+        System.out.println("Ingrese el apellido por favor");
+        miApellido = entrada.nextLine();
         System.out.println("Ingrese el promedio por favor");
         promedio = entrada.nextDouble();
 
         if (promedio >= 7.5) {
-            System.out.printf("Estudiante aprobado con un "
-                    + "promedio: %.2f\n", promedio);
+            System.out.printf("El estudiante %s %s ha aprobado con un "
+                    + "promedio: %.2f\n", miNombre,miApellido,promedio);
         }else{
-            System.out.printf("Estudiante reprobado con un "
-                    + "promedio: %.2f\n", promedio);
+            System.out.printf("El estudiante %s %s ha reprobado con un "
+                    + "promedio: %.2f\n",miNombre,miApellido, promedio);
         }
     }
     
