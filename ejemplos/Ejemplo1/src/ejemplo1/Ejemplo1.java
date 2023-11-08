@@ -22,17 +22,17 @@ public class Ejemplo1 {
         if (promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
-        }
+        } // Finalizacion del condicional simple que comienza desde la 22 hasta la 25
 
         if (promedio > 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
-        }
+        } // Finalizacion del condicional simple que comienza desde la 27 hasta la 30
 
         if (promedio < 7.5) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
-        }
-    }
+        } // Finalizacion del condicional simple que comienza desde el 32 hasta la 35
+    } //Finalizacion del metodo main
 
 }
